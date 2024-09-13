@@ -10,7 +10,7 @@ RUN npm install
 
 RUN npm run build
 
-FROM nginx: 1.19.3-alpine as production-stage
+FROM nginx:1.19.3-alpine as production-stage
 
 COPY --from=build-stage /app/.next/server/app usr/share/nginx/html
 
