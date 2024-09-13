@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: frontend
+    environment: Nodeapp-env
 environment-defaults:
   frontend:
     branch: null
