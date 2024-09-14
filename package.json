@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "@nestjs/mapped-types": "*"
+  },
   "name": "nodeapp-pipeline",
   "version": "1.0.0",
   "main": "index.js",
