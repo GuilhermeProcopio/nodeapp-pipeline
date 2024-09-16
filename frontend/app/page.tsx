@@ -5,7 +5,7 @@ export default async function Page() {
 
     return (
         <div>
-            <h1>Welcome to the Cochoyaro black friday!!</>
+            <h1> Welcome to the Cochoyaro black friday!! <h1/>
             { black_friday ? <button> Promo </button> : <button> Sem promo </button> }  
         <div/>
     )
