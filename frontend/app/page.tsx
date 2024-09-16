@@ -7,6 +7,6 @@ export default async function Page() {
         <div>
             <h1> Welcome to the Cochoyaro black friday!! <h1/>
             { black_friday ? <button> Promo </button> : <button> Sem promo </button> }  
-        <div/>
+        </div>
     )
 };
