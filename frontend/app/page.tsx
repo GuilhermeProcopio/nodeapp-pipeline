@@ -1,7 +1,7 @@
 import { blackFridayFlag  } from "./flags"
 
 export default async function Page() {
-    const black_friday await blackFridayFlag();
+    const black_friday = await blackFridayFlag();
 
     return (
         <div>
