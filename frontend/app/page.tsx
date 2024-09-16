@@ -1,10 +1,12 @@
-export default function Home() {
-return (
-<main className="flex min-h-screen flex-col items-center justify-between p-24">
-<div className="z-10 max-w-5xl w-full items-center justify-between font-mono
-text-sm lg:flex">
-<h1> Welcome to the ConchaYOro App deploy v2</h1>
-</div>
-</main>
-)
-}
+import { blackFridayFlag  } from "./flags"
+
+export default async function Page() {
+    const black_friday await blackFridayFlag();
+
+    return (
+        <div>
+            <h1>Welcome to the Cochoyaro black friday!!</>
+            { black_friday ? <button> Promo </button> : <button> Sem promo </button> }  
+        <div/>
+    )
+};
